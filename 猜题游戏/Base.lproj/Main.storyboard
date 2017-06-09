@@ -26,6 +26,9 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
                                 <state key="normal" title="Button" image="people-cls"/>
+                                <connections>
+                                    <action selector="ivClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="12F-5d-lsS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DiZ-IQ-MlW" userLabel="coin">
                                 <rect key="frame" x="293" y="28" width="74" height="22"/>
@@ -69,20 +72,58 @@
                                 <color key="textColor" red="0.9631284335561916" green="0.99330146991706036" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" id="aYL-ph-whx">
+                                <rect key="frame" x="0.0" y="284" width="375" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="g17-i5-zJs" userLabel="optionView">
+                                <rect key="frame" x="0.0" y="369" width="375" height="298"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.05859375" green="0.05859375" blue="0.05859375" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="iv" destination="E5a-5L-qPY" id="hrC-eB-QQe"/>
+                        <outlet property="mAnswerView" destination="aYL-ph-whx" id="EWD-PI-ytg"/>
                         <outlet property="mBtnNext" destination="hD5-25-rhh" id="efN-Jh-xU7"/>
                         <outlet property="mIndex" destination="qTC-t1-aeO" id="qxr-KH-xph"/>
+                        <outlet property="mOptionView" destination="g17-i5-zJs" id="sYX-vk-Lsm"/>
                         <outlet property="titlej" destination="fCx-bC-lzY" id="wLD-7J-P3u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.40000000000001" y="263.64666666666665"/>
+            <point key="canvasLocation" x="129.5" y="263.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="p9b-4Z-jjf">
+            <objects>
+                <viewController id="Aop-09-ZbI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RmA-2g-9Q7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="My3-WL-eQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QnN-se-YWO">
+            <objects>
+                <viewController id="usO-np-Aag" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1hH-wr-P7o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tuP-WV-Tw9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
