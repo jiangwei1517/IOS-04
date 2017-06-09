@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B663E7A1EEA789600762394 /* IOS猜题游戏.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B663E791EEA789600762394 /* IOS猜题游戏.md */; };
 		3B861C5D1EE92A4E0026D04F /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B861C5C1EE92A4E0026D04F /* questions.plist */; };
 		3B861C601EE92B910026D04F /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B861C5F1EE92B910026D04F /* QuestionModel.m */; };
 		3BCC69C41EE9222F000056F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC69C31EE9222F000056F9 /* main.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B663E791EEA789600762394 /* IOS猜题游戏.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "IOS猜题游戏.md"; sourceTree = "<group>"; };
 		3B861C5C1EE92A4E0026D04F /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
 		3B861C5E1EE92B910026D04F /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
 		3B861C5F1EE92B910026D04F /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		3BCC69B61EE9222F000056F9 = {
 			isa = PBXGroup;
 			children = (
+				3B663E791EEA789600762394 /* IOS猜题游戏.md */,
 				3BCC69C11EE9222F000056F9 /* 猜题游戏 */,
 				3BCC69DB1EE9222F000056F9 /* 猜题游戏Tests */,
 				3BCC69E61EE9222F000056F9 /* 猜题游戏UITests */,
@@ -315,6 +318,7 @@
 				3BCC69C71EE9222F000056F9 /* AppDelegate.m in Sources */,
 				3BCC69C41EE9222F000056F9 /* main.m in Sources */,
 				3B861C601EE92B910026D04F /* QuestionModel.m in Sources */,
+				3B663E7A1EEA789600762394 /* IOS猜题游戏.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
